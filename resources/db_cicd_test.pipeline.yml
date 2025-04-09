@@ -2,7 +2,7 @@
 resources:
   pipelines:
     db_cicd_test_pipeline:
-      name: db_cicd_test_pipeline
+      name: db_cicd_test_pipeline_09
       catalog: bizmetric_databricks_learning
       schema: db_cicd_test_${bundle.target}
       libraries:
