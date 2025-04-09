@@ -1,3 +1,4 @@
+
 # This workflow validates, deploys, and runs the specified bundle
 # within a production target named "prod".
 name: 'Production deployment'
@@ -57,3 +58,4 @@ jobs:
         env:
           DATABRICKS_TOKEN: ${{ secrets.SP_TOKEN }}
           DATABRICKS_BUNDLE_ENV: prod
+

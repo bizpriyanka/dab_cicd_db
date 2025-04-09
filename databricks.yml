@@ -23,6 +23,7 @@ targets:
     workspace:
       host: https://dbc-8e061b63-c3bf.cloud.databricks.com
       # We explicitly deploy to /Workspace/Users/priyanka.chaudhari1@bizmetric.com to make sure we only have a single copy.
-      root_path: /Workspace/Users/priyanka.chaudhari1@bizmetric.com/.bundle/${bundle.name}/${bundle.target}
+      #root_path: /Workspace/Users/priyanka.chaudhari1@bizmetric.com/.bundle/${bundle.name}/${bundle.target}
+      root_path: /Workspace/Users/e7ba406d-b00b-4430-bef9-909d4df2d21c/.bundle/${bundle.name}/${bundle.target}
     run_as:
       service_principal_name: e7ba406d-b00b-4430-bef9-909d4df2d21c
